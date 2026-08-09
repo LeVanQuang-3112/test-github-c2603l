@@ -32,7 +32,6 @@ const Child = ({ onClick }) => {
 function App() {
   const [count, setCount] = useState(0);
 
-  // useCallback
   const handleClick = () => {
     console.log("Clicked");
   };
