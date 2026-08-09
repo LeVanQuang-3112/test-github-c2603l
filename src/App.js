@@ -26,9 +26,6 @@ const Child = ({ onClick }) => {
   );
 };
 
-// useCallback
-// React query
-
 function App() {
   const [count, setCount] = useState(0);
 
