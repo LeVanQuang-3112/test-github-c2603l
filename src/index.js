@@ -4,7 +4,7 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./store/AuthProvider";
 
-// Test commit
+// Test commit1
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <AuthProvider>

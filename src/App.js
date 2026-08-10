@@ -14,7 +14,8 @@ const Child = ({ onClick }) => {
 function App() {
   const [count, setCount] = useState(0);
 
-  const handleClick = () => {
+  // useCallback
+  const handleClickTest = () => {
     console.log("Clicked");
   };
 
@@ -22,7 +23,7 @@ function App() {
     <>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <h1>Count: {count}</h1>
-      <Child onClick={handleClick} />
+      <Child onClick={handleClickTest} />
     </>
   );
 }
